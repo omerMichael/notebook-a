@@ -20,5 +20,5 @@ void Notebook ::erase(int page, int row, int col, Direction direction, int lengh
 }
 
 void Notebook ::show(int page){
-
+    
 }
