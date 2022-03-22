@@ -29,5 +29,5 @@ TEST_CASE("Bad input")
    for(int i = 101; i < 200; i++){
        CHECK_THROWS(notebook.write(100, 99, i, Direction::Horizontal, "out of bounds"));
    }
-    
+   
 }
